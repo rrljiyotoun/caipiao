@@ -18,6 +18,8 @@
 		184A8A1F1D69B42A003DF44C /* CYBDiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A1E1D69B42A003DF44C /* CYBDiscoveryController.m */; };
 		184A8A221D69B468003DF44C /* CYBHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A211D69B468003DF44C /* CYBHistoryController.m */; };
 		184A8A251D69B499003DF44C /* CYBMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A241D69B499003DF44C /* CYBMyLotteryController.m */; };
+		184A8A281D69B971003DF44C /* CYBMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A271D69B971003DF44C /* CYBMainController.m */; };
+		184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,10 @@
 		184A8A211D69B468003DF44C /* CYBHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBHistoryController.m; sourceTree = "<group>"; };
 		184A8A231D69B499003DF44C /* CYBMyLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBMyLotteryController.h; sourceTree = "<group>"; };
 		184A8A241D69B499003DF44C /* CYBMyLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBMyLotteryController.m; sourceTree = "<group>"; };
+		184A8A261D69B971003DF44C /* CYBMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBMainController.h; sourceTree = "<group>"; };
+		184A8A271D69B971003DF44C /* CYBMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBMainController.m; sourceTree = "<group>"; };
+		184A8A291D69BA4F003DF44C /* CYBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBTabBar.h; sourceTree = "<group>"; };
+		184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +318,8 @@
 		184A8A0B1D69AC99003DF44C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				184A8A261D69B971003DF44C /* CYBMainController.h */,
+				184A8A271D69B971003DF44C /* CYBMainController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -337,6 +345,8 @@
 			children = (
 				184A89E11D69A2AD003DF44C /* Main.storyboard */,
 				184A89E61D69A2AD003DF44C /* LaunchScreen.storyboard */,
+				184A8A291D69BA4F003DF44C /* CYBTabBar.h */,
+				184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -456,10 +466,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				184A8A161D69AC99003DF44C /* AppDelegate.m in Sources */,
+				184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */,
 				184A8A221D69B468003DF44C /* CYBHistoryController.m in Sources */,
 				184A8A191D69B329003DF44C /* CYBHallController.m in Sources */,
 				184A8A1F1D69B42A003DF44C /* CYBDiscoveryController.m in Sources */,
 				184A89DA1D69A2AD003DF44C /* main.m in Sources */,
+				184A8A281D69B971003DF44C /* CYBMainController.m in Sources */,
 				184A8A1C1D69B3D5003DF44C /* CYBArenaViewController.m in Sources */,
 				184A8A251D69B499003DF44C /* CYBMyLotteryController.m in Sources */,
 			);

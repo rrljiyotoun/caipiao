@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Main Controller-->
         <scene sceneID="ZGe-eS-Ip5">
             <objects>
-                <tabBarController id="19H-4d-p6R" sceneMemberID="viewController">
+                <tabBarController id="19H-4d-p6R" customClass="CYBMainController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="gH5-ma-ETV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
