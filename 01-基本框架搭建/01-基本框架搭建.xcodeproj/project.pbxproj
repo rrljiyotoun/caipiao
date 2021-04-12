@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184A89DA1D69A2AD003DF44C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A89D91D69A2AD003DF44C /* main.m */; };
+		184A89E31D69A2AD003DF44C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A89E11D69A2AD003DF44C /* Main.storyboard */; };
+		184A89E51D69A2AD003DF44C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A89E41D69A2AD003DF44C /* Assets.xcassets */; };
+		184A89E81D69A2AD003DF44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A89E61D69A2AD003DF44C /* LaunchScreen.storyboard */; };
+		184A89F01D69A981003DF44C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A89EF1D69A981003DF44C /* Images.xcassets */; };
+		184A8A161D69AC99003DF44C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A0F1D69AC99003DF44C /* AppDelegate.m */; };
+		184A8A191D69B329003DF44C /* CYBHallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A181D69B329003DF44C /* CYBHallController.m */; };
+		184A8A1C1D69B3D5003DF44C /* CYBArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A1B1D69B3D5003DF44C /* CYBArenaViewController.m */; };
+		184A8A1F1D69B42A003DF44C /* CYBDiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A1E1D69B42A003DF44C /* CYBDiscoveryController.m */; };
+		184A8A221D69B468003DF44C /* CYBHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A211D69B468003DF44C /* CYBHistoryController.m */; };
+		184A8A251D69B499003DF44C /* CYBMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A241D69B499003DF44C /* CYBMyLotteryController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		184A89D51D69A2AD003DF44C /* 01-基本框架搭建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-基本框架搭建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184A89D91D69A2AD003DF44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184A89E21D69A2AD003DF44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184A89E41D69A2AD003DF44C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184A89E71D69A2AD003DF44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184A89E91D69A2AD003DF44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A89EF1D69A981003DF44C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		184A8A0E1D69AC99003DF44C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184A8A0F1D69AC99003DF44C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184A8A171D69B329003DF44C /* CYBHallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBHallController.h; sourceTree = "<group>"; };
+		184A8A181D69B329003DF44C /* CYBHallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBHallController.m; sourceTree = "<group>"; };
+		184A8A1A1D69B3D5003DF44C /* CYBArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBArenaViewController.h; sourceTree = "<group>"; };
+		184A8A1B1D69B3D5003DF44C /* CYBArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBArenaViewController.m; sourceTree = "<group>"; };
+		184A8A1D1D69B42A003DF44C /* CYBDiscoveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBDiscoveryController.h; sourceTree = "<group>"; };
+		184A8A1E1D69B42A003DF44C /* CYBDiscoveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBDiscoveryController.m; sourceTree = "<group>"; };
+		184A8A201D69B468003DF44C /* CYBHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBHistoryController.h; sourceTree = "<group>"; };
+		184A8A211D69B468003DF44C /* CYBHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBHistoryController.m; sourceTree = "<group>"; };
+		184A8A231D69B499003DF44C /* CYBMyLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBMyLotteryController.h; sourceTree = "<group>"; };
+		184A8A241D69B499003DF44C /* CYBMyLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBMyLotteryController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184A89D21D69A2AD003DF44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184A89CC1D69A2AD003DF44C = {
+			isa = PBXGroup;
+			children = (
+				184A89D71D69A2AD003DF44C /* 01-基本框架搭建 */,
+				184A89D61D69A2AD003DF44C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184A89D61D69A2AD003DF44C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184A89D51D69A2AD003DF44C /* 01-基本框架搭建.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184A89D71D69A2AD003DF44C /* 01-基本框架搭建 */ = {
+			isa = PBXGroup;
+			children = (
+				184A89F11D69AC99003DF44C /* Arena(竞技场) */,
+				184A89F61D69AC99003DF44C /* Discovery(发现) */,
+				184A89FB1D69AC99003DF44C /* Guide(新特性) */,
+				184A8A001D69AC99003DF44C /* Hall(购彩大厅) */,
+				184A8A051D69AC99003DF44C /* History(开奖信息) */,
+				184A8A0A1D69AC99003DF44C /* Main(主框架) */,
+				184A8A111D69AC99003DF44C /* MyLottery(我的彩票) */,
+				184A89D81D69A2AD003DF44C /* Supporting Files */,
+			);
+			path = "01-基本框架搭建";
+			sourceTree = "<group>";
+		};
+		184A89D81D69A2AD003DF44C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184A89E41D69A2AD003DF44C /* Assets.xcassets */,
+				184A89E91D69A2AD003DF44C /* Info.plist */,
+				184A89EF1D69A981003DF44C /* Images.xcassets */,
+				184A89D91D69A2AD003DF44C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184A89F11D69AC99003DF44C /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				184A89F21D69AC99003DF44C /* Controller */,
+				184A89F31D69AC99003DF44C /* Model */,
+				184A89F41D69AC99003DF44C /* Other */,
+				184A89F51D69AC99003DF44C /* View */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		184A89F21D69AC99003DF44C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A1A1D69B3D5003DF44C /* CYBArenaViewController.h */,
+				184A8A1B1D69B3D5003DF44C /* CYBArenaViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184A89F31D69AC99003DF44C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184A89F41D69AC99003DF44C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		184A89F51D69AC99003DF44C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184A89F61D69AC99003DF44C /* Discovery(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				184A89F71D69AC99003DF44C /* Controller */,
+				184A89F81D69AC99003DF44C /* Model */,
+				184A89F91D69AC99003DF44C /* Other */,
+				184A89FA1D69AC99003DF44C /* View */,
+			);
+			path = "Discovery(发现)";
+			sourceTree = "<group>";
+		};
+		184A89F71D69AC99003DF44C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A1D1D69B42A003DF44C /* CYBDiscoveryController.h */,
+				184A8A1E1D69B42A003DF44C /* CYBDiscoveryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184A89F81D69AC99003DF44C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184A89F91D69AC99003DF44C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		184A89FA1D69AC99003DF44C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184A89FB1D69AC99003DF44C /* Guide(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				184A89FC1D69AC99003DF44C /* Controller */,
+				184A89FD1D69AC99003DF44C /* Model */,
+				184A89FE1D69AC99003DF44C /* Other */,
+				184A89FF1D69AC99003DF44C /* View */,
+			);
+			path = "Guide(新特性)";
+			sourceTree = "<group>";
+		};
+		184A89FC1D69AC99003DF44C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184A89FD1D69AC99003DF44C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184A89FE1D69AC99003DF44C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		184A89FF1D69AC99003DF44C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184A8A001D69AC99003DF44C /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A011D69AC99003DF44C /* Controller */,
+				184A8A021D69AC99003DF44C /* Model */,
+				184A8A031D69AC99003DF44C /* Other */,
+				184A8A041D69AC99003DF44C /* View */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		184A8A011D69AC99003DF44C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A171D69B329003DF44C /* CYBHallController.h */,
+				184A8A181D69B329003DF44C /* CYBHallController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184A8A021D69AC99003DF44C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184A8A031D69AC99003DF44C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		184A8A041D69AC99003DF44C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184A8A051D69AC99003DF44C /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A061D69AC99003DF44C /* Controller */,
+				184A8A071D69AC99003DF44C /* Model */,
+				184A8A081D69AC99003DF44C /* Other */,
+				184A8A091D69AC99003DF44C /* View */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		184A8A061D69AC99003DF44C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A201D69B468003DF44C /* CYBHistoryController.h */,
+				184A8A211D69B468003DF44C /* CYBHistoryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184A8A071D69AC99003DF44C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184A8A081D69AC99003DF44C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		184A8A091D69AC99003DF44C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184A8A0A1D69AC99003DF44C /* Main(主框架) */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A0B1D69AC99003DF44C /* Controller */,
+				184A8A0C1D69AC99003DF44C /* Model */,
+				184A8A0D1D69AC99003DF44C /* Other */,
+				184A8A101D69AC99003DF44C /* View */,
+			);
+			path = "Main(主框架)";
+			sourceTree = "<group>";
+		};
+		184A8A0B1D69AC99003DF44C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184A8A0C1D69AC99003DF44C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184A8A0D1D69AC99003DF44C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A0E1D69AC99003DF44C /* AppDelegate.h */,
+				184A8A0F1D69AC99003DF44C /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		184A8A101D69AC99003DF44C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184A89E11D69A2AD003DF44C /* Main.storyboard */,
+				184A89E61D69A2AD003DF44C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184A8A111D69AC99003DF44C /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A121D69AC99003DF44C /* Controller */,
+				184A8A131D69AC99003DF44C /* Model */,
+				184A8A141D69AC99003DF44C /* Other */,
+				184A8A151D69AC99003DF44C /* View */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		184A8A121D69AC99003DF44C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				184A8A231D69B499003DF44C /* CYBMyLotteryController.h */,
+				184A8A241D69B499003DF44C /* CYBMyLotteryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184A8A131D69AC99003DF44C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184A8A141D69AC99003DF44C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		184A8A151D69AC99003DF44C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184A89D41D69A2AD003DF44C /* 01-基本框架搭建 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184A89EC1D69A2AD003DF44C /* Build configuration list for PBXNativeTarget "01-基本框架搭建" */;
+			buildPhases = (
+				184A89D11D69A2AD003DF44C /* Sources */,
+				184A89D21D69A2AD003DF44C /* Frameworks */,
+				184A89D31D69A2AD003DF44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-基本框架搭建";
+			productName = "01-基本框架搭建";
+			productReference = 184A89D51D69A2AD003DF44C /* 01-基本框架搭建.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184A89CD1D69A2AD003DF44C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CYB;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					184A89D41D69A2AD003DF44C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PH52A8FS33;
+					};
+				};
+			};
+			buildConfigurationList = 184A89D01D69A2AD003DF44C /* Build configuration list for PBXProject "01-基本框架搭建" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184A89CC1D69A2AD003DF44C;
+			productRefGroup = 184A89D61D69A2AD003DF44C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184A89D41D69A2AD003DF44C /* 01-基本框架搭建 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184A89D31D69A2AD003DF44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A89E81D69A2AD003DF44C /* LaunchScreen.storyboard in Resources */,
+				184A89F01D69A981003DF44C /* Images.xcassets in Resources */,
+				184A89E51D69A2AD003DF44C /* Assets.xcassets in Resources */,
+				184A89E31D69A2AD003DF44C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184A89D11D69A2AD003DF44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184A8A161D69AC99003DF44C /* AppDelegate.m in Sources */,
+				184A8A221D69B468003DF44C /* CYBHistoryController.m in Sources */,
+				184A8A191D69B329003DF44C /* CYBHallController.m in Sources */,
+				184A8A1F1D69B42A003DF44C /* CYBDiscoveryController.m in Sources */,
+				184A89DA1D69A2AD003DF44C /* main.m in Sources */,
+				184A8A1C1D69B3D5003DF44C /* CYBArenaViewController.m in Sources */,
+				184A8A251D69B499003DF44C /* CYBMyLotteryController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		184A89E11D69A2AD003DF44C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A89E21D69A2AD003DF44C /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		184A89E61D69A2AD003DF44C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184A89E71D69A2AD003DF44C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184A89EA1D69A2AD003DF44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184A89EB1D69A2AD003DF44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184A89ED1D69A2AD003DF44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "01-基本框架搭建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		184A89EE1D69A2AD003DF44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "01-基本框架搭建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184A89D01D69A2AD003DF44C /* Build configuration list for PBXProject "01-基本框架搭建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A89EA1D69A2AD003DF44C /* Debug */,
+				184A89EB1D69A2AD003DF44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184A89EC1D69A2AD003DF44C /* Build configuration list for PBXNativeTarget "01-基本框架搭建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184A89ED1D69A2AD003DF44C /* Debug */,
+				184A89EE1D69A2AD003DF44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184A89CD1D69A2AD003DF44C /* Project object */;
+}
