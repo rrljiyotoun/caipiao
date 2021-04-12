@@ -20,6 +20,7 @@
 		184A8A251D69B499003DF44C /* CYBMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A241D69B499003DF44C /* CYBMyLotteryController.m */; };
 		184A8A281D69B971003DF44C /* CYBMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A271D69B971003DF44C /* CYBMainController.m */; };
 		184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */; };
+		18C129BB1D6A0D87006374E9 /* CYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C129BA1D6A0D87006374E9 /* CYBButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		184A8A271D69B971003DF44C /* CYBMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBMainController.m; sourceTree = "<group>"; };
 		184A8A291D69BA4F003DF44C /* CYBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBTabBar.h; sourceTree = "<group>"; };
 		184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBTabBar.m; sourceTree = "<group>"; };
+		18C129B91D6A0D87006374E9 /* CYBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBButton.h; sourceTree = "<group>"; };
+		18C129BA1D6A0D87006374E9 /* CYBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,6 +350,8 @@
 				184A89E61D69A2AD003DF44C /* LaunchScreen.storyboard */,
 				184A8A291D69BA4F003DF44C /* CYBTabBar.h */,
 				184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */,
+				18C129B91D6A0D87006374E9 /* CYBButton.h */,
+				18C129BA1D6A0D87006374E9 /* CYBButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -469,6 +474,7 @@
 				184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */,
 				184A8A221D69B468003DF44C /* CYBHistoryController.m in Sources */,
 				184A8A191D69B329003DF44C /* CYBHallController.m in Sources */,
+				18C129BB1D6A0D87006374E9 /* CYBButton.m in Sources */,
 				184A8A1F1D69B42A003DF44C /* CYBDiscoveryController.m in Sources */,
 				184A89DA1D69A2AD003DF44C /* main.m in Sources */,
 				184A8A281D69B971003DF44C /* CYBMainController.m in Sources */,
@@ -624,6 +630,7 @@
 				184A89EE1D69A2AD003DF44C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
