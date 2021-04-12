@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@class CYBTabBar;
+@protocol CYBTabBarDelegate <NSObject>
+
+@optional
+
+- (void)tabBar:(CYBTabBar *)TabBar didSelectButtonFrom:(int)from to:(int)to;
+
+@end
+
 @interface CYBTabBar : UIView
+
+@property (nonatomic, weak) id<CYBTabBarDelegate> delegate;
 
 @end

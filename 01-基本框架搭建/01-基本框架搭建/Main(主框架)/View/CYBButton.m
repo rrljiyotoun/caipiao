@@ -10,6 +10,12 @@
 
 @implementation CYBButton
 
+- (instancetype)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        NSLog(@"+++++");
+    }
+    return self;
+}
 
 #warning 重写按钮的这个方法，不调 super ，就可以没有高亮状态
 - (void)setHighlighted:(BOOL)highlighted{
