@@ -19,10 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+#warning 技术点
     /*
-     技术点：1,把系统自带的tabBar删除掉，换上自定义的view，自定义的view的frame等于系统tabBar的frame
-            2，自定义按钮，通过for循环添加到自定义的view上，每个按钮的宽等于自定义view的 0.2 同时为每一个按钮设置背景图片
-            3，给按钮添加点击事件
+    1,把系统自带的tabBar删除掉，换上自定义的view，自定义的view的frame等于系统tabBar的frame
+    2，自定义按钮，通过for循环添加到自定义的view上，每个按钮的宽等于自定义view的 0.2 同时为每一个按钮设置背景图片
+    3，给按钮添加点击事件
      */
    
     //替换系统的 tabBar
