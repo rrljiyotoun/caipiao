@@ -28,12 +28,21 @@
      */
    
     //替换系统的 tabBar
-    [self.tabBar removeFromSuperview];
+//    [self.tabBar removeFromSuperview];
     
     CYBTabBar *tabBar = [[CYBTabBar alloc] init];
     tabBar.delegate = self;
-    tabBar.frame = self.tabBar.frame;
-    [self.view addSubview:tabBar];
+    tabBar.frame = self.tabBar.bounds;
+    [self.tabBar addSubview:tabBar];
+    
+    for (int i = 0; i < self.viewControllers.count; i ++) {
+        NSString *NormalImage = [NSString stringWithFormat:@"TabBar%d",i + 1];
+        NSString *SelImage = [NSString stringWithFormat:@"TabBar%dsel",i + 1];
+        
+        [tabBar tabBarWithButtonNormalImage:NormalImage AndSelImage:SelImage];
+    }
+    
+    
     
 }
 

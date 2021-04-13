@@ -17,49 +17,40 @@
 
 @implementation CYBTabBar
 
+- (void)tabBarWithButtonNormalImage:(NSString *)normalImage AndSelImage:(NSString *)SelImage{
 
-- (instancetype)initWithFrame:(CGRect)frame{
+        CYBButton *tabBarBtn = [CYBButton buttonWithType:UIButtonTypeCustom];
+        
+        //未选中时的背景
+        [tabBarBtn setBackgroundImage:[UIImage imageNamed:normalImage] forState:UIControlStateNormal];
+        
+        //选中时的背景图片
+        [tabBarBtn setBackgroundImage:[UIImage imageNamed:SelImage] forState:UIControlStateSelected];
+        
+        [self addSubview:tabBarBtn];
     
-    if (self = [super initWithFrame:frame]) {
-        
-        self.backgroundColor = [UIColor blueColor];
-        
-        NSLog(@"------------");
-        for (int i = 0; i < 5; i ++) {
-            CYBButton *tabBarBtn = [CYBButton buttonWithType:UIButtonTypeCustom];
-            tabBarBtn.tag = i;  //让当按钮的tag值等于i
-            
-            //未选中时的背景
-            NSString *BtnIcon = [NSString stringWithFormat:@"TabBar%d",i + 1];
-            [tabBarBtn setBackgroundImage:[UIImage imageNamed:BtnIcon] forState:UIControlStateNormal];
-            
-            //选中时的背景图片
-            NSString *SelBtnIcon = [NSString stringWithFormat:@"TabBar%dsel",i + 1];
-            [tabBarBtn setBackgroundImage:[UIImage imageNamed:SelBtnIcon] forState:UIControlStateSelected];
-            
-            [self addSubview:tabBarBtn];
-            
+//        tabBarBtn.tag = self.subviews.count - 1; 
+    
 #warning 点击事件
-            //UIControlEventTouchUpInside点击抬起来才起作用   UIControlEventTouchDown点击就立即起作和
-            [tabBarBtn addTarget:self action:@selector(ButtonClick:) forControlEvents:UIControlEventTouchDown];
-            
-            //设置一进来为第一个按钮为选中状态
-            if (i == 0) {
-                [self ButtonClick:tabBarBtn];
-            }
-            
+        //UIControlEventTouchUpInside点击抬起来才起作用      UIControlEventTouchDown点击就立即起作和
+        [tabBarBtn addTarget:self action:@selector(ButtonClick:) forControlEvents:UIControlEventTouchDown];
+        
+        //设置一进来为第一个按钮为选中状态
+        if (self.subviews.count == 1) {
+            [self ButtonClick:tabBarBtn];
         }
 
-    }
-    return self;
 }
+
 
 //设置子控件的 frame
 - (void)layoutSubviews{
     [super layoutSubviews];
     
-    for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < self.subviews.count; ++i) {
         CYBButton *btn = self.subviews[i];
+        
+        btn.tag = i;
         
         CGFloat tabBarBtnW = self.frame.size.width * 0.2;
         CGFloat tabBarBtnH = self.frame.size.height;

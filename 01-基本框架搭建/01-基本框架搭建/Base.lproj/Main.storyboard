@@ -71,11 +71,37 @@
                             <outlet property="delegate" destination="Eua-kA-4Yw" id="Vpk-uf-uvW"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="cxi-DM-r1q"/>
+                    <navigationItem key="navigationItem" id="cxi-DM-r1q">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="vZk-0A-eU1">
+                            <connections>
+                                <segue destination="w7e-jJ-DwE" kind="push" id="3hW-9D-ToI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EBg-X3-AM6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="444" y="-1423"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xr2-Mp-6GI">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="w7e-jJ-DwE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qO7-nc-vdr"/>
+                        <viewControllerLayoutGuide type="bottom" id="bjv-dM-rGr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OP3-je-UKS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gue-be-DZz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HR3-cL-Nzc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1145" y="-1423"/>
         </scene>
         <!--Arena View Controller-->
         <scene sceneID="OuI-oI-dGS">

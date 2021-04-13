@@ -21,4 +21,12 @@
 
 @property (nonatomic, weak) id<CYBTabBarDelegate> delegate;
 
+/**
+ *  调用本方法设置 TabBar 里面的按钮的图片
+ *
+ *  @param normalImage 未选中时的图片
+ *  @param SelImage    选中时的图片
+ */
+- (void)tabBarWithButtonNormalImage:(NSString *)normalImage AndSelImage:(NSString *)SelImage;
+
 @end
