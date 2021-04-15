@@ -45,7 +45,7 @@
             </objects>
             <point key="canvasLocation" x="-234" y="-1397"/>
         </scene>
-        <!--Hall Controller-->
+        <!--购彩大厅-->
         <scene sceneID="dVt-yO-QH9">
             <objects>
                 <tableViewController id="Eua-kA-4Yw" customClass="CYBHallController" sceneMemberID="viewController">
@@ -71,7 +71,7 @@
                             <outlet property="delegate" destination="Eua-kA-4Yw" id="Vpk-uf-uvW"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="cxi-DM-r1q">
+                    <navigationItem key="navigationItem" title="购彩大厅" id="cxi-DM-r1q">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="vZk-0A-eU1">
                             <connections>
                                 <segue destination="w7e-jJ-DwE" kind="push" id="3hW-9D-ToI"/>
@@ -103,7 +103,7 @@
             </objects>
             <point key="canvasLocation" x="1145" y="-1423"/>
         </scene>
-        <!--Arena View Controller-->
+        <!--竞技场-->
         <scene sceneID="OuI-oI-dGS">
             <objects>
                 <viewController id="bQe-JZ-Y97" customClass="CYBArenaViewController" sceneMemberID="viewController">
@@ -117,7 +117,7 @@
                         <animations/>
                         <color key="backgroundColor" red="0.34362811920000003" green="1" blue="0.17824998140000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4eQ-WE-DGF"/>
+                    <navigationItem key="navigationItem" title="竞技场" id="4eQ-WE-DGF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MPR-sb-Ufd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -159,7 +159,7 @@
             </objects>
             <point key="canvasLocation" x="-234" y="-65"/>
         </scene>
-        <!--Discovery Controller-->
+        <!--发现-->
         <scene sceneID="Vop-47-hQ3">
             <objects>
                 <tableViewController id="l9o-af-J0v" customClass="CYBDiscoveryController" sceneMemberID="viewController">
@@ -186,13 +186,13 @@
                             <outlet property="delegate" destination="l9o-af-J0v" id="xnj-zc-ig0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="vk1-Em-slq"/>
+                    <navigationItem key="navigationItem" title="发现" id="vk1-Em-slq"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ffo-e7-fPL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="420" y="-76"/>
         </scene>
-        <!--History Controller-->
+        <!--开奖信息-->
         <scene sceneID="LUw-28-OjB">
             <objects>
                 <viewController id="94p-dD-z7A" customClass="CYBHistoryController" sceneMemberID="viewController">
@@ -206,13 +206,13 @@
                         <animations/>
                         <color key="backgroundColor" red="0.56641513759999995" green="0.61191269729999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aET-Cj-umg"/>
+                    <navigationItem key="navigationItem" title="开奖信息" id="aET-Cj-umg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g41-EY-gNT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="434" y="622"/>
         </scene>
-        <!--My Lottery Controller-->
+        <!--我的彩票-->
         <scene sceneID="ETm-Jg-lM1">
             <objects>
                 <viewController id="sG2-LK-Q1W" customClass="CYBMyLotteryController" sceneMemberID="viewController">
@@ -226,7 +226,7 @@
                         <animations/>
                         <color key="backgroundColor" red="0.6948422876" green="0.38449154320000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UpT-NU-tZT"/>
+                    <navigationItem key="navigationItem" title="我的彩票" id="UpT-NU-tZT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eoC-J0-vaW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
