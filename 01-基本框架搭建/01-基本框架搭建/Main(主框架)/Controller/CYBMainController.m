@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"==========================");
 #warning 技术点
     /*
     1,把系统自带的tabBar删除掉，换上自定义的view，自定义的view的frame等于系统tabBar的frame
