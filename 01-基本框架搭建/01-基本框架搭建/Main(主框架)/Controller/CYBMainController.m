@@ -44,22 +44,7 @@
         [tabBar tabBarWithButtonNormalImage:NormalImage AndSelImage:SelImage];
     }
     
-    //获取导航控制器的主题
-    UINavigationBar *navBar = [UINavigationBar appearance];
-    //获取系统版本 [UIDevice currentDevice].systemVersion doubleValue]
-    if ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0) {
-        //设置导稿控制器的主题背景图片
-        [navBar setBackgroundImage:[UIImage imageNamed:@"NavBar64"] forBarMetrics:UIBarMetricsDefault];
-    }else {
-        
-        [navBar setBackgroundImage:[UIImage imageNamed:@"NavBar"] forBarMetrics:UIBarMetricsDefault];
-    }
-    
-    //设置导航栏文字颜色
-    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    dict[NSFontAttributeName] = [UIFont systemFontOfSize:20];
-    dict[NSForegroundColorAttributeName] = [UIColor whiteColor];
-    [navBar setTitleTextAttributes:dict];
+
     
     //设置状态栏文字为白色 （最好写在 AppDelegate 里）
     //    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;

@@ -30,7 +30,7 @@
         <!--购彩大厅-->
         <scene sceneID="lIj-ZL-wE7">
             <objects>
-                <navigationController id="Zn7-Ms-afW" sceneMemberID="viewController">
+                <navigationController id="Zn7-Ms-afW" customClass="CYBNavController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="购彩大厅" id="xVf-Ea-VnY"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cp7-8U-V9h">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -103,6 +103,26 @@
             </objects>
             <point key="canvasLocation" x="1145" y="-1423"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="FUb-M2-S27">
+            <objects>
+                <viewController id="ij4-t7-rJd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D48-GM-IzW"/>
+                        <viewControllerLayoutGuide type="bottom" id="W7z-7R-Srq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iNt-tH-Zrl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.68319907109054956" blue="0.28849718713353112" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oLl-fN-mZO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdq-dW-Jkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="-699"/>
+        </scene>
         <!--竞技场-->
         <scene sceneID="OuI-oI-dGS">
             <objects>
@@ -114,6 +134,16 @@
                     <view key="view" contentMode="scaleToFill" id="H6l-7t-s9c">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPt-E2-8CH">
+                                <rect key="frame" x="117" y="222" width="104" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="ij4-t7-rJd" kind="push" id="NcW-x2-DKf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.34362811920000003" green="1" blue="0.17824998140000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -126,7 +156,7 @@
         <!--竞技场-->
         <scene sceneID="BpS-4W-eMh">
             <objects>
-                <navigationController id="Uzv-g2-4sH" sceneMemberID="viewController">
+                <navigationController id="Uzv-g2-4sH" customClass="CYBNavController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="竞技场" id="ZwP-Nw-vYM"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fxf-ks-AG1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -144,7 +174,7 @@
         <!--发现-->
         <scene sceneID="Xj4-iU-qaW">
             <objects>
-                <navigationController id="kn3-0J-f06" sceneMemberID="viewController">
+                <navigationController id="kn3-0J-f06" customClass="CYBNavController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="发现" id="i44-hg-XV2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6ef-RM-Zw9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -235,7 +265,7 @@
         <!--开奖信息-->
         <scene sceneID="H1F-kF-oYJ">
             <objects>
-                <navigationController id="isQ-XU-9Ul" sceneMemberID="viewController">
+                <navigationController id="isQ-XU-9Ul" customClass="CYBNavController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="开奖信息" id="y9I-bu-gKu"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dZf-LA-eiB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -253,7 +283,7 @@
         <!--我的彩票-->
         <scene sceneID="8Gn-ct-3iV">
             <objects>
-                <navigationController id="yRf-Vo-hEp" sceneMemberID="viewController">
+                <navigationController id="yRf-Vo-hEp" customClass="CYBNavController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="我的彩票" id="Wfq-72-gIG"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VQf-i0-10S">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
