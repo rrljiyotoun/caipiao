@@ -72,6 +72,14 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="购彩大厅" id="cxi-DM-r1q">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="moH-oB-Pgz">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wVT-H5-8vq">
+                                <rect key="frame" x="20" y="4" width="63" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" image="CS50_activity_image"/>
+                            </button>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="vZk-0A-eU1">
                             <connections>
                                 <segue destination="w7e-jJ-DwE" kind="push" id="3hW-9D-ToI"/>
@@ -123,7 +131,7 @@
             </objects>
             <point key="canvasLocation" x="1132" y="-699"/>
         </scene>
-        <!--竞技场-->
+        <!--Arena View Controller-->
         <scene sceneID="OuI-oI-dGS">
             <objects>
                 <viewController id="bQe-JZ-Y97" customClass="CYBArenaViewController" sceneMemberID="viewController">
@@ -147,7 +155,18 @@
                         <animations/>
                         <color key="backgroundColor" red="0.34362811920000003" green="1" blue="0.17824998140000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="竞技场" id="4eQ-WE-DGF"/>
+                    <navigationItem key="navigationItem" id="4eQ-WE-DGF">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3j1-sx-Dbd" customClass="CYBTitleButton">
+                            <rect key="frame" x="248" y="11" width="104" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" title="全部彩种" image="YellowDownArrow"/>
+                            <connections>
+                                <action selector="ButtonClick:" destination="bQe-JZ-Y97" eventType="touchUpInside" id="peo-du-Cbt"/>
+                            </connections>
+                        </button>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MPR-sb-Ufd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -299,4 +318,8 @@
             <point key="canvasLocation" x="-234" y="1276"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CS50_activity_image" width="63" height="36"/>
+        <image name="YellowDownArrow" width="16" height="16"/>
+    </resources>
 </document>

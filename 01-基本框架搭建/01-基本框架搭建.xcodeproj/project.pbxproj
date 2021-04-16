@@ -22,6 +22,7 @@
 		184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */; };
 		18C129BB1D6A0D87006374E9 /* CYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C129BA1D6A0D87006374E9 /* CYBButton.m */; };
 		18CAAB5E1D6E088300F98883 /* CYBNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAAB5D1D6E088300F98883 /* CYBNavController.m */; };
+		18CB55161D6F5B56005111E3 /* CYBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB55151D6F5B56005111E3 /* CYBTitleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		18C129BA1D6A0D87006374E9 /* CYBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBButton.m; sourceTree = "<group>"; };
 		18CAAB5C1D6E088300F98883 /* CYBNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBNavController.h; sourceTree = "<group>"; };
 		18CAAB5D1D6E088300F98883 /* CYBNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBNavController.m; sourceTree = "<group>"; };
+		18CB55141D6F5B56005111E3 /* CYBTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYBTitleButton.h; path = "01-基本框架搭建/Main(主框架)/Controller/CYBTitleButton.h"; sourceTree = SOURCE_ROOT; };
+		18CB55151D6F5B56005111E3 /* CYBTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYBTitleButton.m; path = "01-基本框架搭建/Main(主框架)/Controller/CYBTitleButton.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		184A89F51D69AC99003DF44C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18CB55141D6F5B56005111E3 /* CYBTitleButton.h */,
+				18CB55151D6F5B56005111E3 /* CYBTitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -486,6 +491,7 @@
 				18CAAB5E1D6E088300F98883 /* CYBNavController.m in Sources */,
 				184A8A1C1D69B3D5003DF44C /* CYBArenaViewController.m in Sources */,
 				184A8A251D69B499003DF44C /* CYBMyLotteryController.m in Sources */,
+				18CB55161D6F5B56005111E3 /* CYBTitleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

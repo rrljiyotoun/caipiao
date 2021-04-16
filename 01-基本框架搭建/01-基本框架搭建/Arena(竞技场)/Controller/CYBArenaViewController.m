@@ -7,8 +7,16 @@
 //
 
 #import "CYBArenaViewController.h"
+#import "CYBTitleButton.h"
 
 @interface CYBArenaViewController ()
+
+- (IBAction)ButtonClick:(CYBTitleButton *)sender;
+
+@property (nonatomic, assign) CGAffineTransform transform;
+
+
+
 
 @end
 
@@ -34,4 +42,23 @@
 }
 */
 
+
+    
+    
+    
+    
+    
+    
+
+- (IBAction)ButtonClick:(CYBTitleButton *)sender {
+    
+    sender.imageView.transform = CGAffineTransformMakeRotation(M_PI);
+    self.transform =  sender.imageView.transform ;
+    
+    
+    UIView *addView = [[UIView alloc] initWithFrame:CGRectMake(10, 64, 200, 200)];
+    addView.backgroundColor = [UIColor yellowColor];
+    [self.view  addSubview:addView];
+    
+}
 @end

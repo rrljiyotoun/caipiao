@@ -37,6 +37,7 @@
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     dict[NSFontAttributeName] = [UIFont systemFontOfSize:20];
     dict[NSForegroundColorAttributeName] = [UIColor whiteColor];
+
     [navBar setTitleTextAttributes:dict];
 
 }
