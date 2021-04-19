@@ -58,6 +58,7 @@
 		18CB55151D6F5B56005111E3 /* CYBTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYBTitleButton.m; path = "01-基本框架搭建/Main(主框架)/Controller/CYBTitleButton.m"; sourceTree = SOURCE_ROOT; };
 		18CFB8181D72DC3B0079E757 /* UIImage+CYB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CYB.h"; sourceTree = "<group>"; };
 		18CFB8191D72DC3B0079E757 /* UIImage+CYB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CYB.m"; sourceTree = "<group>"; };
+		18CFB81B1D72EE430079E757 /* cp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cp.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 				184A89E91D69A2AD003DF44C /* Info.plist */,
 				184A89EF1D69A981003DF44C /* Images.xcassets */,
 				184A89D91D69A2AD003DF44C /* main.m */,
+				18CFB81B1D72EE430079E757 /* cp.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -618,6 +620,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/01-基本框架搭建/cp.pch";
 				INFOPLIST_FILE = "01-基本框架搭建/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-1-------";
@@ -630,6 +634,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/01-基本框架搭建/cp.pch";
 				INFOPLIST_FILE = "01-基本框架搭建/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-1-------";

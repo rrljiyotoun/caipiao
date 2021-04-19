@@ -157,6 +157,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="4eQ-WE-DGF">
                         <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" title="哈哈" id="KCA-rD-IhG"/>
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3j1-sx-Dbd" customClass="CYBTitleButton">
                             <rect key="frame" x="248" y="11" width="104" height="22"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -236,7 +237,9 @@
                             <outlet property="delegate" destination="l9o-af-J0v" id="xnj-zc-ig0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="发现" id="vk1-Em-slq"/>
+                    <navigationItem key="navigationItem" title="发现" id="vk1-Em-slq">
+                        <barButtonItem key="leftBarButtonItem" title="向上" id="mg8-cz-cen"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ffo-e7-fPL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
