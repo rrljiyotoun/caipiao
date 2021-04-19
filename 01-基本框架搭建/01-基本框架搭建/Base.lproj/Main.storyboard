@@ -166,6 +166,7 @@
                                 <action selector="ButtonClick:" destination="bQe-JZ-Y97" eventType="touchUpInside" id="peo-du-Cbt"/>
                             </connections>
                         </button>
+                        <barButtonItem key="rightBarButtonItem" image="NavInfoFlat" id="uyM-HH-l74"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MPR-sb-Ufd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -255,7 +256,17 @@
                         <animations/>
                         <color key="backgroundColor" red="0.56641513759999995" green="0.61191269729999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="开奖信息" id="aET-Cj-umg"/>
+                    <navigationItem key="navigationItem" title="开奖信息" id="aET-Cj-umg">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="azU-Nc-MuH">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OAx-Ea-R71">
+                                <rect key="frame" x="480" y="11" width="100" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="开奖推送" image="pushSettings"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g41-EY-gNT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -275,7 +286,26 @@
                         <animations/>
                         <color key="backgroundColor" red="0.6948422876" green="0.38449154320000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="我的彩票" id="UpT-NU-tZT"/>
+                    <navigationItem key="navigationItem" title="我的彩票" id="UpT-NU-tZT">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="Ffu-2M-8pk">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2L6-Bl-tTi">
+                                <rect key="frame" x="20" y="11" width="70" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="客服" image="FBMM_Barbutton"/>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="2Uk-wE-mmo">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xAq-Zg-yNl">
+                                <rect key="frame" x="530" y="11" width="50" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" image="Mylottery_config"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eoC-J0-vaW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -320,6 +350,10 @@
     </scenes>
     <resources>
         <image name="CS50_activity_image" width="63" height="36"/>
+        <image name="FBMM_Barbutton" width="13" height="13"/>
+        <image name="Mylottery_config" width="22" height="22"/>
+        <image name="NavInfoFlat" width="22" height="22"/>
         <image name="YellowDownArrow" width="16" height="16"/>
+        <image name="pushSettings" width="14" height="13"/>
     </resources>
 </document>

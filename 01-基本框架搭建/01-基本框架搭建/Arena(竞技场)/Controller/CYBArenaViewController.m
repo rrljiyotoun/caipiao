@@ -15,9 +15,6 @@
 
 @property (nonatomic, assign) CGAffineTransform transform;
 
-
-
-
 @end
 
 @implementation CYBArenaViewController
@@ -41,14 +38,6 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-
-    
-    
-    
-    
-    
-    
 
 - (IBAction)ButtonClick:(CYBTitleButton *)sender {
     
