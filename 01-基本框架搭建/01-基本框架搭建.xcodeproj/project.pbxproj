@@ -23,6 +23,7 @@
 		18C129BB1D6A0D87006374E9 /* CYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C129BA1D6A0D87006374E9 /* CYBButton.m */; };
 		18CAAB5E1D6E088300F98883 /* CYBNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAAB5D1D6E088300F98883 /* CYBNavController.m */; };
 		18CB55161D6F5B56005111E3 /* CYBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB55151D6F5B56005111E3 /* CYBTitleButton.m */; };
+		18CFB81A1D72DC3B0079E757 /* UIImage+CYB.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB8191D72DC3B0079E757 /* UIImage+CYB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,8 @@
 		18CAAB5D1D6E088300F98883 /* CYBNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBNavController.m; sourceTree = "<group>"; };
 		18CB55141D6F5B56005111E3 /* CYBTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYBTitleButton.h; path = "01-基本框架搭建/Main(主框架)/Controller/CYBTitleButton.h"; sourceTree = SOURCE_ROOT; };
 		18CB55151D6F5B56005111E3 /* CYBTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYBTitleButton.m; path = "01-基本框架搭建/Main(主框架)/Controller/CYBTitleButton.m"; sourceTree = SOURCE_ROOT; };
+		18CFB8181D72DC3B0079E757 /* UIImage+CYB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CYB.h"; sourceTree = "<group>"; };
+		18CFB8191D72DC3B0079E757 /* UIImage+CYB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CYB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +321,7 @@
 		184A8A0A1D69AC99003DF44C /* Main(主框架) */ = {
 			isa = PBXGroup;
 			children = (
+				18CFB8161D72DBB60079E757 /* classify(分类) */,
 				184A8A0B1D69AC99003DF44C /* Controller */,
 				184A8A0C1D69AC99003DF44C /* Model */,
 				184A8A0D1D69AC99003DF44C /* Other */,
@@ -407,6 +411,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		18CFB8161D72DBB60079E757 /* classify(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				18CFB8181D72DC3B0079E757 /* UIImage+CYB.h */,
+				18CFB8191D72DC3B0079E757 /* UIImage+CYB.m */,
+			);
+			name = "classify(分类)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -483,6 +496,7 @@
 				184A8A161D69AC99003DF44C /* AppDelegate.m in Sources */,
 				184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */,
 				184A8A221D69B468003DF44C /* CYBHistoryController.m in Sources */,
+				18CFB81A1D72DC3B0079E757 /* UIImage+CYB.m in Sources */,
 				184A8A191D69B329003DF44C /* CYBHallController.m in Sources */,
 				18C129BB1D6A0D87006374E9 /* CYBButton.m in Sources */,
 				184A8A1F1D69B42A003DF44C /* CYBDiscoveryController.m in Sources */,

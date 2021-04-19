@@ -7,8 +7,13 @@
 //
 
 #import "CYBMyLotteryController.h"
+#import "UIImage+CYB.h"
 
 @interface CYBMyLotteryController ()
+
+- (IBAction)ClickButton:(UIButton *)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *LongBtn;
 
 @end
 
@@ -38,7 +43,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+//    UIImage *Normal  = [UIImage imageNamed:@"RedButton"];
+//    UIImage *Highlighted = [UIImage imageNamed:@"RedButtonPressed"];
+//    
+//    //设置图片的拉伸位置
+//    Normal = [Normal stretchableImageWithLeftCapWidth:Normal.size.width * 0.5 topCapHeight:Normal.size.height * 0.5];
+//    Highlighted = [Highlighted stretchableImageWithLeftCapWidth:Highlighted.size.width *0.5 topCapHeight:Highlighted.size.height * 0.5];
+//    
+//    //下面两个方法也是设置图片的拉伸的
+////    Normal = [Normal resizableImageWithCapInsets:UIEdgeInsetsMake(<#CGFloat top#>, <#CGFloat left#>, <#CGFloat bottom#>, <#CGFloat right#>)];
+////    Normal = [Normal resizableImageWithCapInsets:<#(UIEdgeInsets)#> resizingMode:<#(UIImageResizingMode)#>];
+//    
+//    //设置图
+//    [self.LongBtn setBackgroundImage:Normal forState:UIControlStateNormal];
+//    [self.LongBtn setBackgroundImage:Highlighted forState:UIControlStateHighlighted];
+    
+    
+    //用分类设置按钮
+    UIImage *normal = [UIImage resizablImage:@"RedButton"];
+    UIImage *Highlighted = [UIImage resizablImage:@"RedButtonPressed"];
+    
+        //设置图
+    [self.LongBtn setBackgroundImage:normal forState:UIControlStateNormal];
+    [self.LongBtn setBackgroundImage:Highlighted forState:UIControlStateHighlighted];
+
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,14 +78,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)ClickButton:(UIButton *)sender {
+ 
+    
+    
 }
-*/
-
 @end

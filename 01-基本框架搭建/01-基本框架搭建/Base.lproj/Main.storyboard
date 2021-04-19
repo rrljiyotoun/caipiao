@@ -292,12 +292,27 @@
                                     <constraint firstAttribute="height" constant="140" id="8of-ng-7JP"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXE-sP-Efy">
+                                <rect key="frame" x="150" y="274" width="300" height="50"/>
+                                <animations/>
+                                <rect key="contentStretch" x="0.5" y="0.5" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="2uz-hA-fa1"/>
+                                    <constraint firstAttribute="height" constant="50" id="ebP-ij-prV"/>
+                                </constraints>
+                                <state key="normal" title="登  陆" backgroundImage="RedButton"/>
+                                <connections>
+                                    <action selector="ClickButton:" destination="sG2-LK-Q1W" eventType="touchUpInside" id="ktk-f4-FUK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="S9Y-gx-AS6" firstAttribute="top" secondItem="4im-BR-fGT" secondAttribute="bottom" constant="20" id="7DG-LG-inM"/>
+                            <constraint firstItem="vXE-sP-Efy" firstAttribute="centerX" secondItem="uxe-Zk-WtA" secondAttribute="centerX" id="FwV-vq-oYr"/>
                             <constraint firstItem="S9Y-gx-AS6" firstAttribute="centerX" secondItem="uxe-Zk-WtA" secondAttribute="centerX" id="tb5-ES-KGJ"/>
+                            <constraint firstItem="vXE-sP-Efy" firstAttribute="top" secondItem="S9Y-gx-AS6" secondAttribute="bottom" constant="50" id="zfd-A2-21I"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="我的彩票" id="UpT-NU-tZT">
@@ -320,6 +335,9 @@
                             </button>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="LongBtn" destination="vXE-sP-Efy" id="ZdE-jY-duq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eoC-J0-vaW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -368,6 +386,7 @@
         <image name="LoginScreen" width="150" height="70"/>
         <image name="Mylottery_config" width="22" height="22"/>
         <image name="NavInfoFlat" width="22" height="22"/>
+        <image name="RedButton" width="61" height="34"/>
         <image name="YellowDownArrow" width="16" height="16"/>
         <image name="pushSettings" width="14" height="13"/>
     </resources>
