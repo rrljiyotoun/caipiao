@@ -14,6 +14,28 @@
 
 @implementation CYBMyLotteryController
 
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder{
+    if (self = [super initWithCoder:aDecoder]) {
+        NSLog(@"initWithCoder如果在storyboard设置Main.storyboard和代码设置一样");
+        /*
+         如果在storyboard设置Main.storyboard和代码设置一样
+         
+         如果控制器的view是普通的view时候，不是tableView与ScrollView的时候因为不滚动，可以顶部和底的扩展关掉
+         
+         UIRectEdgeNone   都不扩展
+         UIRectEdgeTop    扩展顶部
+         UIRectEdgeLeft   扩展左边
+         UIRectEdgeBottom 扩展底部
+         UIRectEdgeRight  扩展右边
+         UIRectEdgeAll    上下左右都扩展
+         */
+        self.edgesForExtendedLayout = UIRectEdgeAll;
+        
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
