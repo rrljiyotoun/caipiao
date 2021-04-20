@@ -10,6 +10,7 @@
 #import "CYBStatus.h"
 #import "CYBOneController.h"
 #import "CYBTestTwoViewController.h"
+#import "CYBStatusGroup.h"
 
 
 @interface CYBSetting ()
@@ -25,19 +26,21 @@
     if (_status == nil) {
         _status = [NSMutableArray array];
         
-       CYBStatus *item00 = [CYBStatus settingWithIcon:@"MorePush" title:@"提示设置" classVc:[CYBOneController class]];
-        
+        CYBStatus *item00 = [CYBStatus settingWithIcon:@"MorePush" title:@"提示设置" classVc:[CYBOneController class]];
         CYBStatus *item01 = [CYBStatus settingWithIcon:@"MoreMessage" title:@"信息" classVc:[CYBTestTwoViewController class]];
-        
-        NSArray *array0 = @[item00,item01];
-        
-        
+        CYBStatusGroup *group0 = [[CYBStatusGroup alloc] init];
+        group0.header = @"头部标题1";
+        group0.footer = @"尾部标题1";
+        group0.items = @[item00,item01];
+     
         CYBStatus *item10 = [CYBStatus settingWithIcon:@"handShake" title:@"摇一摇机选" classVc:[CYBOneController class]];
-        NSArray *array1 = @[item10];
+        CYBStatus *item11 = [CYBStatus settingWithIcon:@"MoreUpdate" title:@"检查更新" classVc:[CYBTestTwoViewController class]];
+        CYBStatusGroup *group1 = [[CYBStatusGroup alloc] init];
+        group1.header = @"头部标题1";
+        group1.items = @[item10,item11];
         
-        [_status addObject:array0];
-        
-        [_status addObject:array1];
+        [_status addObject:group0];
+        [_status addObject:group1];
     }
     return _status;
 }
@@ -63,8 +66,7 @@
     [super viewDidLoad];
     
     self.title = @"设置";
-    
-    NSLog(@"123123%s",__func__);
+
     
 }
 
@@ -80,8 +82,8 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSArray *tatus = self.status[section];
-    return tatus.count;
+    CYBStatusGroup *tatus = self.status[section];
+    return tatus.items.count;
 }
 
 
@@ -95,22 +97,35 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
     }
     
-    CYBStatus *status = self.status[indexPath.section][indexPath.row];
+    CYBStatusGroup *status = self.status[indexPath.section];
+    CYBStatus *st = status.items[indexPath.row];
     
-    cell.imageView.image = [UIImage imageNamed:status.icon];
-    cell.textLabel.text = status.title;
+    cell.imageView.image = [UIImage imageNamed:st.icon];
+    cell.textLabel.text = st.title;
  
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    CYBStatus *status = self.status[indexPath.section][indexPath.row];
+    CYBStatusGroup *status = self.status[indexPath.section];
+    CYBStatus *st = status.items[indexPath.row];
     
-    [self.navigationController pushViewController:[[status.classVC alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[st.classVC alloc] init] animated:YES];
     
 
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+
+    CYBStatusGroup *status = self.status[section];
+    return status.header;
+
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section{
+    CYBStatusGroup *status = self.status[section];
+    return status.footer;
+}
 
 @end

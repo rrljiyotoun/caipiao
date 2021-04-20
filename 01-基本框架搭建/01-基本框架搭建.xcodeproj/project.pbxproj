@@ -28,6 +28,7 @@
 		18CB55161D6F5B56005111E3 /* CYBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB55151D6F5B56005111E3 /* CYBTitleButton.m */; };
 		18CFB81A1D72DC3B0079E757 /* UIImage+CYB.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB8191D72DC3B0079E757 /* UIImage+CYB.m */; };
 		18DE444A1D74870E0058906D /* CYBOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE44491D74870E0058906D /* CYBOneController.m */; };
+		18DE444D1D74916D0058906D /* CYBStatusGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE444C1D74916D0058906D /* CYBStatusGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,8 @@
 		18CFB81B1D72EE430079E757 /* cp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cp.pch; sourceTree = "<group>"; };
 		18DE44481D74870E0058906D /* CYBOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBOneController.h; sourceTree = "<group>"; };
 		18DE44491D74870E0058906D /* CYBOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBOneController.m; sourceTree = "<group>"; };
+		18DE444B1D74916D0058906D /* CYBStatusGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBStatusGroup.h; sourceTree = "<group>"; };
+		18DE444C1D74916D0058906D /* CYBStatusGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBStatusGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -451,6 +454,8 @@
 			children = (
 				189D2A0B1D7359920016DA7D /* CYBStatus.h */,
 				189D2A0C1D7359920016DA7D /* CYBStatus.m */,
+				18DE444B1D74916D0058906D /* CYBStatusGroup.h */,
+				18DE444C1D74916D0058906D /* CYBStatusGroup.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -557,6 +562,7 @@
 			files = (
 				184A8A161D69AC99003DF44C /* AppDelegate.m in Sources */,
 				189D2A0A1D7352F00016DA7D /* CYBSetting.m in Sources */,
+				18DE444D1D74916D0058906D /* CYBStatusGroup.m in Sources */,
 				18DE444A1D74870E0058906D /* CYBOneController.m in Sources */,
 				184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */,
 				184A8A221D69B468003DF44C /* CYBHistoryController.m in Sources */,
