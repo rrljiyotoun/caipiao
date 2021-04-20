@@ -12,7 +12,8 @@
 #import "CYBTestTwoViewController.h"
 #import "CYBStatusGroup.h"
 #import "CYBTableViewCell.h"
-
+#import "CYBStatusArrows.h"
+#import "CYBStatusSwitch.h"
 
 @interface CYBSetting ()
 
@@ -27,15 +28,15 @@
     if (_status == nil) {
         _status = [NSMutableArray array];
         
-        CYBStatus *item00 = [CYBStatus settingWithIcon:@"MorePush" title:@"提示设置" classVc:[CYBOneController class]];
-        CYBStatus *item01 = [CYBStatus settingWithIcon:@"MoreMessage" title:@"信息" classVc:[CYBTestTwoViewController class]];
+        CYBStatus *item00 = [CYBStatusArrows settingWithIcon:@"MorePush" title:@"提示设置" classVc:[CYBOneController class]];
+        CYBStatus *item01 = [CYBStatusSwitch settingWithIcon:@"MoreMessage" title:@"信息" classVc:[CYBTestTwoViewController class]];
         CYBStatusGroup *group0 = [[CYBStatusGroup alloc] init];
         group0.header = @"头部标题1";
         group0.footer = @"尾部标题1";
         group0.items = @[item00,item01];
      
         CYBStatus *item10 = [CYBStatus settingWithIcon:@"handShake" title:@"摇一摇机选" classVc:[CYBOneController class]];
-        CYBStatus *item11 = [CYBStatus settingWithIcon:@"MoreUpdate" title:@"检查更新" classVc:[CYBTestTwoViewController class]];
+        CYBStatus *item11 = [CYBStatusArrows settingWithIcon:@"MoreUpdate" title:@"检查更新" classVc:[CYBTestTwoViewController class]];
         CYBStatusGroup *group1 = [[CYBStatusGroup alloc] init];
         group1.header = @"头部标题1";
         group1.items = @[item10,item11];

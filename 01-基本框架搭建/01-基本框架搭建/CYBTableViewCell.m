@@ -8,6 +8,8 @@
 
 #import "CYBTableViewCell.h"
 #import "CYBStatus.h"
+#import "CYBStatusSwitch.h"
+#import "CYBStatusArrows.h"
 
 @implementation CYBTableViewCell
 
@@ -17,6 +19,20 @@
     
     self.imageView.image = [UIImage imageNamed:Status.icon];
     self.textLabel.text = Status.title;
+    
+    if ([Status isKindOfClass:[CYBStatusArrows class]]) {
+        
+        self.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"arrow_right"]];
+        
+    }else if ([Status isKindOfClass:[CYBStatusSwitch class]]){
+    
+        self.accessoryView = [[UISwitch alloc] init];
+        
+    }else{
+    
+        self.accessoryView = nil;
+    }
+    
 
 }
 
