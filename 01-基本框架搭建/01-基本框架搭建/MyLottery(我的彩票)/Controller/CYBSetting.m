@@ -11,6 +11,7 @@
 #import "CYBOneController.h"
 #import "CYBTestTwoViewController.h"
 #import "CYBStatusGroup.h"
+#import "CYBTableViewCell.h"
 
 
 @interface CYBSetting ()
@@ -89,21 +90,23 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *ID = @"cell";
+//    static NSString *ID = @"cell";
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+//    if (cell == nil) {
+//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+//    }
+//    CYBStatusGroup *status = self.status[indexPath.section];
+//    CYBStatus *st = status.items[indexPath.row];
+//    cell.imageView.image = [UIImage imageNamed:st.icon];
+//    cell.textLabel.text = st.title;
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
-    }
+    CYBTableViewCell *cell = [CYBTableViewCell cellWithTableView:tableView];    //创建cell
     
     CYBStatusGroup *status = self.status[indexPath.section];
-    CYBStatus *st = status.items[indexPath.row];
-    
-    cell.imageView.image = [UIImage imageNamed:st.icon];
-    cell.textLabel.text = st.title;
+    cell.Status = status.items[indexPath.row]; //传模型
  
-    return cell;
+    return cell;    //返回cell
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -112,7 +115,6 @@
     CYBStatus *st = status.items[indexPath.row];
     
     [self.navigationController pushViewController:[[st.classVC alloc] init] animated:YES];
-    
 
 }
 
