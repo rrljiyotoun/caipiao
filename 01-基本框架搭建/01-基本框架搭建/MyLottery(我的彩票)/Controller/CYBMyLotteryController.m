@@ -8,10 +8,14 @@
 
 #import "CYBMyLotteryController.h"
 #import "UIImage+CYB.h"
+#import "CYBSetting.h"
 
 @interface CYBMyLotteryController ()
 
 - (IBAction)ClickButton:(UIButton *)sender;
+
+//跳转到设置
+- (IBAction)setting;
 
 @property (weak, nonatomic) IBOutlet UIButton *LongBtn;
 
@@ -83,5 +87,13 @@
  
     
     
+}
+
+- (IBAction)setting{
+    
+    CYBSetting *set = [[CYBSetting alloc] init];
+    
+    [self.navigationController pushViewController:set animated:YES];
+ 
 }
 @end

@@ -20,10 +20,14 @@
 		184A8A251D69B499003DF44C /* CYBMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A241D69B499003DF44C /* CYBMyLotteryController.m */; };
 		184A8A281D69B971003DF44C /* CYBMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A271D69B971003DF44C /* CYBMainController.m */; };
 		184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */; };
+		189D2A0A1D7352F00016DA7D /* CYBSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D2A091D7352F00016DA7D /* CYBSetting.m */; };
+		189D2A0D1D7359920016DA7D /* CYBStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D2A0C1D7359920016DA7D /* CYBStatus.m */; };
+		189D2A191D7360740016DA7D /* CYBTestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D2A181D7360740016DA7D /* CYBTestTwoViewController.m */; };
 		18C129BB1D6A0D87006374E9 /* CYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C129BA1D6A0D87006374E9 /* CYBButton.m */; };
 		18CAAB5E1D6E088300F98883 /* CYBNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAAB5D1D6E088300F98883 /* CYBNavController.m */; };
 		18CB55161D6F5B56005111E3 /* CYBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB55151D6F5B56005111E3 /* CYBTitleButton.m */; };
 		18CFB81A1D72DC3B0079E757 /* UIImage+CYB.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB8191D72DC3B0079E757 /* UIImage+CYB.m */; };
+		18DE444A1D74870E0058906D /* CYBOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE44491D74870E0058906D /* CYBOneController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,12 @@
 		184A8A271D69B971003DF44C /* CYBMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBMainController.m; sourceTree = "<group>"; };
 		184A8A291D69BA4F003DF44C /* CYBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBTabBar.h; sourceTree = "<group>"; };
 		184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBTabBar.m; sourceTree = "<group>"; };
+		189D2A081D7352F00016DA7D /* CYBSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYBSetting.h; path = "MyLottery(我的彩票)/Controller/CYBSetting.h"; sourceTree = "<group>"; };
+		189D2A091D7352F00016DA7D /* CYBSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYBSetting.m; path = "MyLottery(我的彩票)/Controller/CYBSetting.m"; sourceTree = "<group>"; };
+		189D2A0B1D7359920016DA7D /* CYBStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYBStatus.h; path = "01-基本框架搭建/MyLottery(我的彩票)/Controller/CYBStatus.h"; sourceTree = SOURCE_ROOT; };
+		189D2A0C1D7359920016DA7D /* CYBStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYBStatus.m; path = "01-基本框架搭建/MyLottery(我的彩票)/Controller/CYBStatus.m"; sourceTree = SOURCE_ROOT; };
+		189D2A171D7360740016DA7D /* CYBTestTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBTestTwoViewController.h; sourceTree = "<group>"; };
+		189D2A181D7360740016DA7D /* CYBTestTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBTestTwoViewController.m; sourceTree = "<group>"; };
 		18C129B91D6A0D87006374E9 /* CYBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBButton.h; sourceTree = "<group>"; };
 		18C129BA1D6A0D87006374E9 /* CYBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBButton.m; sourceTree = "<group>"; };
 		18CAAB5C1D6E088300F98883 /* CYBNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBNavController.h; sourceTree = "<group>"; };
@@ -59,6 +69,8 @@
 		18CFB8181D72DC3B0079E757 /* UIImage+CYB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CYB.h"; sourceTree = "<group>"; };
 		18CFB8191D72DC3B0079E757 /* UIImage+CYB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CYB.m"; sourceTree = "<group>"; };
 		18CFB81B1D72EE430079E757 /* cp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cp.pch; sourceTree = "<group>"; };
+		18DE44481D74870E0058906D /* CYBOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBOneController.h; sourceTree = "<group>"; };
+		18DE44491D74870E0058906D /* CYBOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBOneController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +103,7 @@
 		184A89D71D69A2AD003DF44C /* 01-基本框架搭建 */ = {
 			isa = PBXGroup;
 			children = (
+				189D2A0F1D735F920016DA7D /* Setting(设置) */,
 				184A89F11D69AC99003DF44C /* Arena(竞技场) */,
 				184A89F61D69AC99003DF44C /* Discovery(发现) */,
 				184A89FB1D69AC99003DF44C /* Guide(新特性) */,
@@ -413,6 +426,53 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		189D2A0F1D735F920016DA7D /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				189D2A131D735FD30016DA7D /* View */,
+				189D2A121D735FC10016DA7D /* Other */,
+				189D2A111D735FB60016DA7D /* Model */,
+				189D2A101D735FA00016DA7D /* Controller */,
+			);
+			name = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		189D2A101D735FA00016DA7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189D2A081D7352F00016DA7D /* CYBSetting.h */,
+				189D2A091D7352F00016DA7D /* CYBSetting.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		189D2A111D735FB60016DA7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				189D2A0B1D7359920016DA7D /* CYBStatus.h */,
+				189D2A0C1D7359920016DA7D /* CYBStatus.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		189D2A121D735FC10016DA7D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		189D2A131D735FD30016DA7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				189D2A171D7360740016DA7D /* CYBTestTwoViewController.h */,
+				189D2A181D7360740016DA7D /* CYBTestTwoViewController.m */,
+				18DE44481D74870E0058906D /* CYBOneController.h */,
+				18DE44491D74870E0058906D /* CYBOneController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		18CFB8161D72DBB60079E757 /* classify(分类) */ = {
 			isa = PBXGroup;
 			children = (
@@ -496,13 +556,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				184A8A161D69AC99003DF44C /* AppDelegate.m in Sources */,
+				189D2A0A1D7352F00016DA7D /* CYBSetting.m in Sources */,
+				18DE444A1D74870E0058906D /* CYBOneController.m in Sources */,
 				184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */,
 				184A8A221D69B468003DF44C /* CYBHistoryController.m in Sources */,
 				18CFB81A1D72DC3B0079E757 /* UIImage+CYB.m in Sources */,
 				184A8A191D69B329003DF44C /* CYBHallController.m in Sources */,
+				189D2A0D1D7359920016DA7D /* CYBStatus.m in Sources */,
 				18C129BB1D6A0D87006374E9 /* CYBButton.m in Sources */,
 				184A8A1F1D69B42A003DF44C /* CYBDiscoveryController.m in Sources */,
 				184A89DA1D69A2AD003DF44C /* main.m in Sources */,
+				189D2A191D7360740016DA7D /* CYBTestTwoViewController.m in Sources */,
 				184A8A281D69B971003DF44C /* CYBMainController.m in Sources */,
 				18CAAB5E1D6E088300F98883 /* CYBNavController.m in Sources */,
 				184A8A1C1D69B3D5003DF44C /* CYBArenaViewController.m in Sources */,

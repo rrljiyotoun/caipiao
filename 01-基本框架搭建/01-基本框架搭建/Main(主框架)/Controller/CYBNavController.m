@@ -53,6 +53,7 @@
     
     
     if (!IOS7) {    //在iOS系纺下小7的时候就会调用
+        //改变 UIBarButtonItem 的样式可改变 其背景图片
         [item setBackgroundImage:[UIImage imageNamed:@"NavBackButton"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
         [item setBackgroundImage:[UIImage imageNamed:@"NavBackButtonPressed"] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
         

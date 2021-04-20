@@ -331,10 +331,14 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="2Uk-wE-mmo">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xAq-Zg-yNl">
-                                <rect key="frame" x="530" y="11" width="50" height="22"/>
+                                <rect key="frame" x="510" y="11" width="70" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <state key="normal" image="Mylottery_config"/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="设置" image="Mylottery_config"/>
+                                <connections>
+                                    <action selector="setting" destination="sG2-LK-Q1W" eventType="touchUpInside" id="Qya-pA-KDm"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
