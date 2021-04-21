@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18013ABA1D75DE82000A03CC /* CYBOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18013AA81D75DE82000A03CC /* CYBOneController.m */; };
+		18013ABB1D75DE82000A03CC /* CYBSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 18013AAA1D75DE82000A03CC /* CYBSetting.m */; };
+		18013ABC1D75DE82000A03CC /* CYBTestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18013AAC1D75DE82000A03CC /* CYBTestTwoViewController.m */; };
+		18013ABD1D75DE82000A03CC /* CYBStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 18013AAF1D75DE82000A03CC /* CYBStatus.m */; };
+		18013ABE1D75DE82000A03CC /* CYBStatusArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = 18013AB11D75DE82000A03CC /* CYBStatusArrows.m */; };
+		18013ABF1D75DE82000A03CC /* CYBStatusGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18013AB31D75DE82000A03CC /* CYBStatusGroup.m */; };
+		18013AC01D75DE82000A03CC /* CYBStatusSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 18013AB51D75DE82000A03CC /* CYBStatusSwitch.m */; };
+		18013AC11D75DE82000A03CC /* CYBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18013AB91D75DE82000A03CC /* CYBTableViewCell.m */; };
 		184A89DA1D69A2AD003DF44C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A89D91D69A2AD003DF44C /* main.m */; };
 		184A89E31D69A2AD003DF44C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A89E11D69A2AD003DF44C /* Main.storyboard */; };
 		184A89E51D69A2AD003DF44C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A89E41D69A2AD003DF44C /* Assets.xcassets */; };
@@ -20,21 +28,29 @@
 		184A8A251D69B499003DF44C /* CYBMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A241D69B499003DF44C /* CYBMyLotteryController.m */; };
 		184A8A281D69B971003DF44C /* CYBMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A271D69B971003DF44C /* CYBMainController.m */; };
 		184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */; };
-		189D2A0A1D7352F00016DA7D /* CYBSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D2A091D7352F00016DA7D /* CYBSetting.m */; };
-		189D2A0D1D7359920016DA7D /* CYBStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D2A0C1D7359920016DA7D /* CYBStatus.m */; };
-		189D2A191D7360740016DA7D /* CYBTestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D2A181D7360740016DA7D /* CYBTestTwoViewController.m */; };
 		18C129BB1D6A0D87006374E9 /* CYBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C129BA1D6A0D87006374E9 /* CYBButton.m */; };
 		18CAAB5E1D6E088300F98883 /* CYBNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAAB5D1D6E088300F98883 /* CYBNavController.m */; };
 		18CB55161D6F5B56005111E3 /* CYBTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB55151D6F5B56005111E3 /* CYBTitleButton.m */; };
 		18CFB81A1D72DC3B0079E757 /* UIImage+CYB.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CFB8191D72DC3B0079E757 /* UIImage+CYB.m */; };
-		18DE444A1D74870E0058906D /* CYBOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE44491D74870E0058906D /* CYBOneController.m */; };
-		18DE444D1D74916D0058906D /* CYBStatusGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE444C1D74916D0058906D /* CYBStatusGroup.m */; };
-		18DE44501D74A0C30058906D /* CYBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE444F1D74A0C30058906D /* CYBTableViewCell.m */; };
-		18DE44531D74A7C80058906D /* CYBStatusArrows.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE44521D74A7C80058906D /* CYBStatusArrows.m */; };
-		18DE44561D74A7F90058906D /* CYBStatusSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DE44551D74A7F90058906D /* CYBStatusSwitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18013AA71D75DE82000A03CC /* CYBOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBOneController.h; sourceTree = "<group>"; };
+		18013AA81D75DE82000A03CC /* CYBOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBOneController.m; sourceTree = "<group>"; };
+		18013AA91D75DE82000A03CC /* CYBSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBSetting.h; sourceTree = "<group>"; };
+		18013AAA1D75DE82000A03CC /* CYBSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBSetting.m; sourceTree = "<group>"; };
+		18013AAB1D75DE82000A03CC /* CYBTestTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBTestTwoViewController.h; sourceTree = "<group>"; };
+		18013AAC1D75DE82000A03CC /* CYBTestTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBTestTwoViewController.m; sourceTree = "<group>"; };
+		18013AAE1D75DE82000A03CC /* CYBStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBStatus.h; sourceTree = "<group>"; };
+		18013AAF1D75DE82000A03CC /* CYBStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBStatus.m; sourceTree = "<group>"; };
+		18013AB01D75DE82000A03CC /* CYBStatusArrows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBStatusArrows.h; sourceTree = "<group>"; };
+		18013AB11D75DE82000A03CC /* CYBStatusArrows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBStatusArrows.m; sourceTree = "<group>"; };
+		18013AB21D75DE82000A03CC /* CYBStatusGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBStatusGroup.h; sourceTree = "<group>"; };
+		18013AB31D75DE82000A03CC /* CYBStatusGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBStatusGroup.m; sourceTree = "<group>"; };
+		18013AB41D75DE82000A03CC /* CYBStatusSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBStatusSwitch.h; sourceTree = "<group>"; };
+		18013AB51D75DE82000A03CC /* CYBStatusSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBStatusSwitch.m; sourceTree = "<group>"; };
+		18013AB81D75DE82000A03CC /* CYBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBTableViewCell.h; sourceTree = "<group>"; };
+		18013AB91D75DE82000A03CC /* CYBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBTableViewCell.m; sourceTree = "<group>"; };
 		184A89D51D69A2AD003DF44C /* 01-基本框架搭建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-基本框架搭建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A89D91D69A2AD003DF44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		184A89E21D69A2AD003DF44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,12 +74,6 @@
 		184A8A271D69B971003DF44C /* CYBMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBMainController.m; sourceTree = "<group>"; };
 		184A8A291D69BA4F003DF44C /* CYBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBTabBar.h; sourceTree = "<group>"; };
 		184A8A2A1D69BA4F003DF44C /* CYBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBTabBar.m; sourceTree = "<group>"; };
-		189D2A081D7352F00016DA7D /* CYBSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYBSetting.h; path = "MyLottery(我的彩票)/Controller/CYBSetting.h"; sourceTree = "<group>"; };
-		189D2A091D7352F00016DA7D /* CYBSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYBSetting.m; path = "MyLottery(我的彩票)/Controller/CYBSetting.m"; sourceTree = "<group>"; };
-		189D2A0B1D7359920016DA7D /* CYBStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYBStatus.h; path = "01-基本框架搭建/MyLottery(我的彩票)/Controller/CYBStatus.h"; sourceTree = SOURCE_ROOT; };
-		189D2A0C1D7359920016DA7D /* CYBStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYBStatus.m; path = "01-基本框架搭建/MyLottery(我的彩票)/Controller/CYBStatus.m"; sourceTree = SOURCE_ROOT; };
-		189D2A171D7360740016DA7D /* CYBTestTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBTestTwoViewController.h; sourceTree = "<group>"; };
-		189D2A181D7360740016DA7D /* CYBTestTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBTestTwoViewController.m; sourceTree = "<group>"; };
 		18C129B91D6A0D87006374E9 /* CYBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBButton.h; sourceTree = "<group>"; };
 		18C129BA1D6A0D87006374E9 /* CYBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBButton.m; sourceTree = "<group>"; };
 		18CAAB5C1D6E088300F98883 /* CYBNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBNavController.h; sourceTree = "<group>"; };
@@ -73,16 +83,6 @@
 		18CFB8181D72DC3B0079E757 /* UIImage+CYB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CYB.h"; sourceTree = "<group>"; };
 		18CFB8191D72DC3B0079E757 /* UIImage+CYB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CYB.m"; sourceTree = "<group>"; };
 		18CFB81B1D72EE430079E757 /* cp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cp.pch; sourceTree = "<group>"; };
-		18DE44481D74870E0058906D /* CYBOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBOneController.h; sourceTree = "<group>"; };
-		18DE44491D74870E0058906D /* CYBOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBOneController.m; sourceTree = "<group>"; };
-		18DE444B1D74916D0058906D /* CYBStatusGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBStatusGroup.h; sourceTree = "<group>"; };
-		18DE444C1D74916D0058906D /* CYBStatusGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBStatusGroup.m; sourceTree = "<group>"; };
-		18DE444E1D74A0C30058906D /* CYBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBTableViewCell.h; sourceTree = "<group>"; };
-		18DE444F1D74A0C30058906D /* CYBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBTableViewCell.m; sourceTree = "<group>"; };
-		18DE44511D74A7C80058906D /* CYBStatusArrows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBStatusArrows.h; sourceTree = "<group>"; };
-		18DE44521D74A7C80058906D /* CYBStatusArrows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBStatusArrows.m; sourceTree = "<group>"; };
-		18DE44541D74A7F90058906D /* CYBStatusSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBStatusSwitch.h; sourceTree = "<group>"; };
-		18DE44551D74A7F90058906D /* CYBStatusSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBStatusSwitch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +96,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18013AA51D75DE82000A03CC /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				18013AA61D75DE82000A03CC /* Controller */,
+				18013AAD1D75DE82000A03CC /* Model */,
+				18013AB61D75DE82000A03CC /* Other */,
+				18013AB71D75DE82000A03CC /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		18013AA61D75DE82000A03CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18013AA71D75DE82000A03CC /* CYBOneController.h */,
+				18013AA81D75DE82000A03CC /* CYBOneController.m */,
+				18013AA91D75DE82000A03CC /* CYBSetting.h */,
+				18013AAA1D75DE82000A03CC /* CYBSetting.m */,
+				18013AAB1D75DE82000A03CC /* CYBTestTwoViewController.h */,
+				18013AAC1D75DE82000A03CC /* CYBTestTwoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18013AAD1D75DE82000A03CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18013AAE1D75DE82000A03CC /* CYBStatus.h */,
+				18013AAF1D75DE82000A03CC /* CYBStatus.m */,
+				18013AB01D75DE82000A03CC /* CYBStatusArrows.h */,
+				18013AB11D75DE82000A03CC /* CYBStatusArrows.m */,
+				18013AB21D75DE82000A03CC /* CYBStatusGroup.h */,
+				18013AB31D75DE82000A03CC /* CYBStatusGroup.m */,
+				18013AB41D75DE82000A03CC /* CYBStatusSwitch.h */,
+				18013AB51D75DE82000A03CC /* CYBStatusSwitch.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18013AB61D75DE82000A03CC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		18013AB71D75DE82000A03CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18013AB81D75DE82000A03CC /* CYBTableViewCell.h */,
+				18013AB91D75DE82000A03CC /* CYBTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		184A89CC1D69A2AD003DF44C = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +170,7 @@
 		184A89D71D69A2AD003DF44C /* 01-基本框架搭建 */ = {
 			isa = PBXGroup;
 			children = (
-				189D2A0F1D735F920016DA7D /* Setting(设置) */,
+				18013AA51D75DE82000A03CC /* Setting(设置) */,
 				184A89F11D69AC99003DF44C /* Arena(竞技场) */,
 				184A89F61D69AC99003DF44C /* Discovery(发现) */,
 				184A89FB1D69AC99003DF44C /* Guide(新特性) */,
@@ -438,61 +493,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		189D2A0F1D735F920016DA7D /* Setting(设置) */ = {
-			isa = PBXGroup;
-			children = (
-				189D2A131D735FD30016DA7D /* View */,
-				189D2A121D735FC10016DA7D /* Other */,
-				189D2A111D735FB60016DA7D /* Model */,
-				189D2A101D735FA00016DA7D /* Controller */,
-			);
-			name = "Setting(设置)";
-			sourceTree = "<group>";
-		};
-		189D2A101D735FA00016DA7D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				189D2A081D7352F00016DA7D /* CYBSetting.h */,
-				189D2A091D7352F00016DA7D /* CYBSetting.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		189D2A111D735FB60016DA7D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				189D2A0B1D7359920016DA7D /* CYBStatus.h */,
-				189D2A0C1D7359920016DA7D /* CYBStatus.m */,
-				18DE44511D74A7C80058906D /* CYBStatusArrows.h */,
-				18DE44521D74A7C80058906D /* CYBStatusArrows.m */,
-				18DE44541D74A7F90058906D /* CYBStatusSwitch.h */,
-				18DE44551D74A7F90058906D /* CYBStatusSwitch.m */,
-				18DE444B1D74916D0058906D /* CYBStatusGroup.h */,
-				18DE444C1D74916D0058906D /* CYBStatusGroup.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		189D2A121D735FC10016DA7D /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Other;
-			sourceTree = "<group>";
-		};
-		189D2A131D735FD30016DA7D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				189D2A171D7360740016DA7D /* CYBTestTwoViewController.h */,
-				189D2A181D7360740016DA7D /* CYBTestTwoViewController.m */,
-				18DE44481D74870E0058906D /* CYBOneController.h */,
-				18DE44491D74870E0058906D /* CYBOneController.m */,
-				18DE444E1D74A0C30058906D /* CYBTableViewCell.h */,
-				18DE444F1D74A0C30058906D /* CYBTableViewCell.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		18CFB8161D72DBB60079E757 /* classify(分类) */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,22 +575,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DE44531D74A7C80058906D /* CYBStatusArrows.m in Sources */,
 				184A8A161D69AC99003DF44C /* AppDelegate.m in Sources */,
-				189D2A0A1D7352F00016DA7D /* CYBSetting.m in Sources */,
-				18DE444D1D74916D0058906D /* CYBStatusGroup.m in Sources */,
-				18DE444A1D74870E0058906D /* CYBOneController.m in Sources */,
+				18013ABC1D75DE82000A03CC /* CYBTestTwoViewController.m in Sources */,
 				184A8A2B1D69BA4F003DF44C /* CYBTabBar.m in Sources */,
 				184A8A221D69B468003DF44C /* CYBHistoryController.m in Sources */,
+				18013ABE1D75DE82000A03CC /* CYBStatusArrows.m in Sources */,
 				18CFB81A1D72DC3B0079E757 /* UIImage+CYB.m in Sources */,
 				184A8A191D69B329003DF44C /* CYBHallController.m in Sources */,
-				18DE44561D74A7F90058906D /* CYBStatusSwitch.m in Sources */,
-				189D2A0D1D7359920016DA7D /* CYBStatus.m in Sources */,
+				18013ABF1D75DE82000A03CC /* CYBStatusGroup.m in Sources */,
+				18013ABA1D75DE82000A03CC /* CYBOneController.m in Sources */,
+				18013ABD1D75DE82000A03CC /* CYBStatus.m in Sources */,
+				18013AC01D75DE82000A03CC /* CYBStatusSwitch.m in Sources */,
+				18013ABB1D75DE82000A03CC /* CYBSetting.m in Sources */,
 				18C129BB1D6A0D87006374E9 /* CYBButton.m in Sources */,
-				18DE44501D74A0C30058906D /* CYBTableViewCell.m in Sources */,
 				184A8A1F1D69B42A003DF44C /* CYBDiscoveryController.m in Sources */,
+				18013AC11D75DE82000A03CC /* CYBTableViewCell.m in Sources */,
 				184A89DA1D69A2AD003DF44C /* main.m in Sources */,
-				189D2A191D7360740016DA7D /* CYBTestTwoViewController.m in Sources */,
 				184A8A281D69B971003DF44C /* CYBMainController.m in Sources */,
 				18CAAB5E1D6E088300F98883 /* CYBNavController.m in Sources */,
 				184A8A1C1D69B3D5003DF44C /* CYBArenaViewController.m in Sources */,
